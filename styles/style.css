@@ -14,7 +14,7 @@ html{
 
 /* ------- Button ---------- */
 .primary-button{
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     border-radius: 20px;
     color: white;
@@ -64,6 +64,10 @@ nav ul li a{
     height: calc(100vh-80px);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-image: url(../influencer-gear-main/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
 
 .banner-left{
@@ -81,10 +85,13 @@ nav ul li a{
     font-size: 40px;
     color: black;
 }
+.banner-left p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .banner-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: 30%;
+    
 }
 
 .banner-right img{
